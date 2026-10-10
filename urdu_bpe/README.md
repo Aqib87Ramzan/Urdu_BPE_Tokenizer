@@ -12,6 +12,7 @@ python -m unittest discover -s tests -v          # 26 tests: tokenizer + normali
 # 1. own collection >= 50 MB (keeps evidence CSVs in raw/)
 python collect_wikipedia.py --contact YOUR_EMAIL --target-mb 120
 python collect_web.py --name my_news_site --sitemap https://SITE/sitemap.xml --contact YOUR_EMAIL --max-mb 60
+ python collect_cc100.py
 # 2. download published corpora (CC-100, UFAL, ...) into published/, then list ALL sources
 cp sources.example.json sources.json             # edit paths, licences, collection dates
 # 3. clean + dedupe + split 98/1/1 (writes data/train.txt, val.txt, test.txt, corpus_stats.json)
