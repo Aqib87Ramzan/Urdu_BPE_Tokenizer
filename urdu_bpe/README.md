@@ -12,11 +12,15 @@ python -m unittest discover -s tests -v          # 26 tests: tokenizer + normali
 # 1. own collection >= 50 MB (keeps evidence CSVs in raw/)
 python collect_wikipedia.py --contact YOUR_EMAIL --target-mb 120
 python collect_web.py --name my_news_site --sitemap https://SITE/sitemap.xml --contact YOUR_EMAIL --max-mb 60
- python collect_cc100.py
+python collect_cc100.py
+python collect_ufal.py --url "https://lindat.mff.cuni.cz/repository/server/api/core/bitstreams/f0fc564f-13e1-4eae-887c-c4ab21672271/content" --out "published/urdu_monolingual.txt.gz"
+
 # 2. download published corpora (CC-100, UFAL, ...) into published/, then list ALL sources
 cp sources.example.json sources.json             # edit paths, licences, collection dates
+
 # 3. clean + dedupe + split 98/1/1 (writes data/train.txt, val.txt, test.txt, corpus_stats.json)
 python prepare_corpus.py --sources sources.json --out-dir data
+
 # 4. data card (then read it and add your own notes under "Known gaps and biases")
 python make_data_card.py --sources sources.json --stats data/corpus_stats.json
 ```
@@ -25,8 +29,10 @@ python make_data_card.py --sources sources.json --stats data/corpus_stats.json
 ```bash
 # fast trainer == reference trainer on a 1 MB sample (required check)
 python verify_equivalence.py --train data/train.txt --sample-mb 1 --merges 1000
+
 # train the real tokenizer: 50,000 tokens = 256 bytes + <|endoftext|> + 49,743 merges
 python train_tokenizer.py --train data/train.txt --out tokenizer.json
+
 # encode the corpus to flat uint16 arrays
 python encode_corpus.py --tokenizer tokenizer.json --input data/train.txt --output data/train.bin
 python encode_corpus.py --tokenizer tokenizer.json --input data/val.txt   --output data/val.bin
@@ -38,6 +44,7 @@ Training prints progress/ETA and writes `training_log.json` (wall-clock time + m
 ```bash
 python analyze_tokenizer.py --tokenizer tokenizer.json --test data/test.txt
 python build_report.py            # first run writes analysis/report_text.json (DRAFT wording)
+
 #  -> edit analysis/report_text.json in your own words, then:
 python build_report.py            # report.html + report.pdf (Chrome/Edge/WeasyPrint); check <= 4 pages
 ```
