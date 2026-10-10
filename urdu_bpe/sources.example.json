@@ -1,0 +1,47 @@
+[
+  {
+    "name": "urdu_wikipedia",
+    "path": "raw/urdu_wikipedia.jsonl",
+    "format": "jsonl",
+    "field": "text",
+    "genre": "encyclopedia",
+    "url": "https://ur.wikipedia.org (MediaWiki API)",
+    "licence": "CC BY-SA 4.0",
+    "collection_date": "FILL-IN (YYYY-MM-DD)",
+    "own_collection": true,
+    "evidence": "raw/urdu_wikipedia.evidence.csv"
+  },
+  {
+    "name": "my_news_site",
+    "path": "raw/my_news_site.jsonl",
+    "format": "jsonl",
+    "field": "title,text",
+    "genre": "news",
+    "url": "FILL-IN site URL",
+    "licence": "FILL-IN: terms-of-use link / statement - YOU must read and verify it",
+    "collection_date": "FILL-IN (YYYY-MM-DD)",
+    "own_collection": true,
+    "evidence": "raw/my_news_site.evidence.csv"
+  },
+  {
+    "name": "cc100_urdu",
+    "path": "published/ur.txt.xz",
+    "format": "txt-blank",
+    "genre": "web (mixed)",
+    "url": "https://data.statmt.org/cc-100/",
+    "licence": "FILL-IN: check the CC-100 / Common Crawl terms of use",
+    "collection_date": "FILL-IN (download date)",
+    "own_collection": false
+  },
+  {
+    "name": "ufal_urdu_monolingual",
+    "path": "published/urdu_monolingual.txt.gz",
+    "format": "txt-lines",
+    "group_size": 50,
+    "genre": "news/web (sentences)",
+    "url": "FILL-IN official UFAL page",
+    "licence": "FILL-IN: read the licence on the UFAL page",
+    "collection_date": "FILL-IN (download date)",
+    "own_collection": false
+  }
+]

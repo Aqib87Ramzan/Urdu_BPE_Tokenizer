@@ -1,0 +1,11 @@
+# --- implementation (allowed by the assignment) ---
+regex
+numpy
+tqdm
+requests
+beautifulsoup4
+# --- Part C analysis only ---
+matplotlib
+tiktoken        # comparison ONLY (never used in bpe.py / normalize.py)
+# tokenizers    # optional, comparison ONLY (--hf <name>)
+# weasyprint    # optional PDF renderer; otherwise Chrome/Edge is used for report.pdf
