@@ -49,8 +49,9 @@ def api_get(session, url, params, retries=6):
             r.raise_for_status()
             data = r.json()
             err = data.get("error")
-            if err and err.get("code") == "maxlag":  # servers busy: back off
-                time.sleep(10)
+            if err:  # maxlag, ratelimited, internal errors ...: wait and retry, never ignore
+                print(f"\nAPI error '{err.get('code')}': {err.get('info', '')[:120]} - retrying", flush=True)
+                time.sleep(10 + 5 * attempt)
                 continue
             return data
         except (requests.RequestException, ValueError):
@@ -72,6 +73,9 @@ def main():
     ap.add_argument("--target-mb", type=float, default=0, help="stop after N MB (0 = all)")
     ap.add_argument("--delay", type=float, default=0.3, help="seconds between requests")
     ap.add_argument("--resume", action="store_true")
+    ap.add_argument("--full-text", action="store_true",
+                    help="whole articles (the API then returns ONE article per request: very slow). "
+                         "Default: article introductions, up to 20 per request")
     args = ap.parse_args()
 
     os.makedirs(os.path.dirname(args.out) or ".", exist_ok=True)
@@ -83,6 +87,8 @@ def main():
               "generator": "allpages", "gapnamespace": 0, "gaplimit": 20,
               "gapfilterredir": "nonredirects", "prop": "extracts|info",
               "explaintext": 1, "exlimit": "max", "maxlag": 5}
+    if not args.full_text:
+        params["exintro"] = 1
     total_bytes, seen = 0, set()
     mode = "w"
     if args.resume and os.path.exists(args.state):
@@ -116,7 +122,7 @@ def main():
                              datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"),
                              nbytes])
                 total_bytes += nbytes
-                if bar:
+                if bar is not None:
                     bar.update(nbytes)
             fout.flush()
             fev.flush()
@@ -124,11 +130,15 @@ def main():
             if cont:
                 with open(args.state, "w", encoding="utf-8") as fs:
                     json.dump({"continue": cont, "bytes": total_bytes}, fs)
-            if not cont or (target and total_bytes >= target):
+            if not cont:
+                print("\nreached the end of the page list (no more results)")
+                break
+            if target and total_bytes >= target:
+                print("\nreached the target size")
                 break
             params.update(cont)
             time.sleep(args.delay)
-        if bar:
+        if bar is not None:
             bar.close()
     print(f"collected {total_bytes / 2**20:.1f} MB from {len(seen):,} articles")
 
