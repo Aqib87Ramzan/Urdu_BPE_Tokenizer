@@ -1,0 +1,1088 @@
+{
+  "vocab_size": 50000,
+  "num_merges": 49743,
+  "q1": {
+    "rows": [
+      {
+        "merge": 1,
+        "id": 257,
+        "pair": [
+          216,
+          167
+        ],
+        "token": "ا",
+        "bytes": 2,
+        "valid_utf8": true,
+        "two_byte_letter": true
+      },
+      {
+        "merge": 2,
+        "id": 258,
+        "pair": [
+          219,
+          140
+        ],
+        "token": "ی",
+        "bytes": 2,
+        "valid_utf8": true,
+        "two_byte_letter": true
+      },
+      {
+        "merge": 3,
+        "id": 259,
+        "pair": [
+          32,
+          216
+        ],
+        "token": "<20 d8>",
+        "bytes": 2,
+        "valid_utf8": false,
+        "two_byte_letter": false
+      },
+      {
+        "merge": 4,
+        "id": 260,
+        "pair": [
+          218,
+          169
+        ],
+        "token": "ک",
+        "bytes": 2,
+        "valid_utf8": true,
+        "two_byte_letter": true
+      },
+      {
+        "merge": 5,
+        "id": 261,
+        "pair": [
+          32,
+          217
+        ],
+        "token": "<20 d9>",
+        "bytes": 2,
+        "valid_utf8": false,
+        "two_byte_letter": false
+      },
+      {
+        "merge": 6,
+        "id": 262,
+        "pair": [
+          216,
+          177
+        ],
+        "token": "ر",
+        "bytes": 2,
+        "valid_utf8": true,
+        "two_byte_letter": true
+      },
+      {
+        "merge": 7,
+        "id": 263,
+        "pair": [
+          219,
+          129
+        ],
+        "token": "ہ",
+        "bytes": 2,
+        "valid_utf8": true,
+        "two_byte_letter": true
+      },
+      {
+        "merge": 8,
+        "id": 264,
+        "pair": [
+          217,
+          136
+        ],
+        "token": "و",
+        "bytes": 2,
+        "valid_utf8": true,
+        "two_byte_letter": true
+      },
+      {
+        "merge": 9,
+        "id": 265,
+        "pair": [
+          219,
+          146
+        ],
+        "token": "ے",
+        "bytes": 2,
+        "valid_utf8": true,
+        "two_byte_letter": true
+      },
+      {
+        "merge": 10,
+        "id": 266,
+        "pair": [
+          32,
+          260
+        ],
+        "token": "␣ک",
+        "bytes": 3,
+        "valid_utf8": true,
+        "two_byte_letter": false
+      },
+      {
+        "merge": 11,
+        "id": 267,
+        "pair": [
+          217,
+          134
+        ],
+        "token": "ن",
+        "bytes": 2,
+        "valid_utf8": true,
+        "two_byte_letter": true
+      },
+      {
+        "merge": 12,
+        "id": 268,
+        "pair": [
+          257,
+          216
+        ],
+        "token": "<d8 a7 d8>",
+        "bytes": 3,
+        "valid_utf8": false,
+        "two_byte_letter": false
+      },
+      {
+        "merge": 13,
+        "id": 269,
+        "pair": [
+          217,
+          132
+        ],
+        "token": "ل",
+        "bytes": 2,
+        "valid_utf8": true,
+        "two_byte_letter": true
+      },
+      {
+        "merge": 14,
+        "id": 270,
+        "pair": [
+          217,
+          133
+        ],
+        "token": "م",
+        "bytes": 2,
+        "valid_utf8": true,
+        "two_byte_letter": true
+      },
+      {
+        "merge": 15,
+        "id": 271,
+        "pair": [
+          218,
+          186
+        ],
+        "token": "ں",
+        "bytes": 2,
+        "valid_utf8": true,
+        "two_byte_letter": true
+      },
+      {
+        "merge": 16,
+        "id": 272,
+        "pair": [
+          261,
+          133
+        ],
+        "token": "␣م",
+        "bytes": 3,
+        "valid_utf8": true,
+        "two_byte_letter": false
+      },
+      {
+        "merge": 17,
+        "id": 273,
+        "pair": [
+          32,
+          257
+        ],
+        "token": "␣ا",
+        "bytes": 3,
+        "valid_utf8": true,
+        "two_byte_letter": false
+      },
+      {
+        "merge": 18,
+        "id": 274,
+        "pair": [
+          216,
+          170
+        ],
+        "token": "ت",
+        "bytes": 2,
+        "valid_utf8": true,
+        "two_byte_letter": true
+      },
+      {
+        "merge": 19,
+        "id": 275,
+        "pair": [
+          32,
+          263
+        ],
+        "token": "␣ہ",
+        "bytes": 3,
+        "valid_utf8": true,
+        "two_byte_letter": false
+      },
+      {
+        "merge": 20,
+        "id": 276,
+        "pair": [
+          258,
+          271
+        ],
+        "token": "یں",
+        "bytes": 4,
+        "valid_utf8": true,
+        "two_byte_letter": false
+      },
+      {
+        "merge": 21,
+        "id": 277,
+        "pair": [
+          218,
+          190
+        ],
+        "token": "ھ",
+        "bytes": 2,
+        "valid_utf8": true,
+        "two_byte_letter": true
+      },
+      {
+        "merge": 22,
+        "id": 278,
+        "pair": [
+          216,
+          179
+        ],
+        "token": "س",
+        "bytes": 2,
+        "valid_utf8": true,
+        "two_byte_letter": true
+      },
+      {
+        "merge": 23,
+        "id": 279,
+        "pair": [
+          259,
+          179
+        ],
+        "token": "␣س",
+        "bytes": 3,
+        "valid_utf8": true,
+        "two_byte_letter": false
+      },
+      {
+        "merge": 24,
+        "id": 280,
+        "pair": [
+          259,
+          168
+        ],
+        "token": "␣ب",
+        "bytes": 3,
+        "valid_utf8": true,
+        "two_byte_letter": false
+      },
+      {
+        "merge": 25,
+        "id": 281,
+        "pair": [
+          216,
+          175
+        ],
+        "token": "د",
+        "bytes": 2,
+        "valid_utf8": true,
+        "two_byte_letter": true
+      },
+      {
+        "merge": 26,
+        "id": 282,
+        "pair": [
+          218,
+          175
+        ],
+        "token": "گ",
+        "bytes": 2,
+        "valid_utf8": true,
+        "two_byte_letter": true
+      },
+      {
+        "merge": 27,
+        "id": 283,
+        "pair": [
+          261,
+          134
+        ],
+        "token": "␣ن",
+        "bytes": 3,
+        "valid_utf8": true,
+        "two_byte_letter": false
+      },
+      {
+        "merge": 28,
+        "id": 284,
+        "pair": [
+          261,
+          190
+        ],
+        "token": "␣پ",
+        "bytes": 3,
+        "valid_utf8": true,
+        "two_byte_letter": false
+      },
+      {
+        "merge": 29,
+        "id": 285,
+        "pair": [
+          259,
+          170
+        ],
+        "token": "␣ت",
+        "bytes": 3,
+        "valid_utf8": true,
+        "two_byte_letter": false
+      },
+      {
+        "merge": 30,
+        "id": 286,
+        "pair": [
+          266,
+          258
+        ],
+        "token": "␣کی",
+        "bytes": 5,
+        "valid_utf8": true,
+        "two_byte_letter": false
+      },
+      {
+        "merge": 31,
+        "id": 287,
+        "pair": [
+          216,
+          168
+        ],
+        "token": "ب",
+        "bytes": 2,
+        "valid_utf8": true,
+        "two_byte_letter": true
+      },
+      {
+        "merge": 32,
+        "id": 288,
+        "pair": [
+          264,
+          262
+        ],
+        "token": "ور",
+        "bytes": 4,
+        "valid_utf8": true,
+        "two_byte_letter": false
+      },
+      {
+        "merge": 33,
+        "id": 289,
+        "pair": [
+          266,
+          265
+        ],
+        "token": "␣کے",
+        "bytes": 5,
+        "valid_utf8": true,
+        "two_byte_letter": false
+      },
+      {
+        "merge": 34,
+        "id": 290,
+        "pair": [
+          257,
+          267
+        ],
+        "token": "ان",
+        "bytes": 4,
+        "valid_utf8": true,
+        "two_byte_letter": false
+      },
+      {
+        "merge": 35,
+        "id": 291,
+        "pair": [
+          219,
+          148
+        ],
+        "token": "۔",
+        "bytes": 2,
+        "valid_utf8": true,
+        "two_byte_letter": false
+      },
+      {
+        "merge": 36,
+        "id": 292,
+        "pair": [
+          259,
+          172
+        ],
+        "token": "␣ج",
+        "bytes": 3,
+        "valid_utf8": true,
+        "two_byte_letter": false
+      },
+      {
+        "merge": 37,
+        "id": 293,
+        "pair": [
+          32,
+          268
+        ],
+        "token": "<20 d8 a7 d8>",
+        "bytes": 4,
+        "valid_utf8": false,
+        "two_byte_letter": false
+      },
+      {
+        "merge": 38,
+        "id": 294,
+        "pair": [
+          257,
+          262
+        ],
+        "token": "ار",
+        "bytes": 4,
+        "valid_utf8": true,
+        "two_byte_letter": false
+      },
+      {
+        "merge": 39,
+        "id": 295,
+        "pair": [
+          259,
+          175
+        ],
+        "token": "␣د",
+        "bytes": 3,
+        "valid_utf8": true,
+        "two_byte_letter": false
+      },
+      {
+        "merge": 40,
+        "id": 296,
+        "pair": [
+          272,
+          276
+        ],
+        "token": "␣میں",
+        "bytes": 7,
+        "valid_utf8": true,
+        "two_byte_letter": false
+      },
+      {
+        "merge": 41,
+        "id": 297,
+        "pair": [
+          217,
+          129
+        ],
+        "token": "ف",
+        "bytes": 2,
+        "valid_utf8": true,
+        "two_byte_letter": true
+      },
+      {
+        "merge": 42,
+        "id": 298,
+        "pair": [
+          275,
+          265
+        ],
+        "token": "␣ہے",
+        "bytes": 5,
+        "valid_utf8": true,
+        "two_byte_letter": false
+      },
+      {
+        "merge": 43,
+        "id": 299,
+        "pair": [
+          217,
+          130
+        ],
+        "token": "ق",
+        "bytes": 2,
+        "valid_utf8": true,
+        "two_byte_letter": true
+      },
+      {
+        "merge": 44,
+        "id": 300,
+        "pair": [
+          261,
+          136
+        ],
+        "token": "␣و",
+        "bytes": 3,
+        "valid_utf8": true,
+        "two_byte_letter": false
+      },
+      {
+        "merge": 45,
+        "id": 301,
+        "pair": [
+          218,
+          134
+        ],
+        "token": "چ",
+        "bytes": 2,
+        "valid_utf8": true,
+        "two_byte_letter": true
+      },
+      {
+        "merge": 46,
+        "id": 302,
+        "pair": [
+          217,
+          185
+        ],
+        "token": "ٹ",
+        "bytes": 2,
+        "valid_utf8": true,
+        "two_byte_letter": true
+      },
+      {
+        "merge": 47,
+        "id": 303,
+        "pair": [
+          216,
+          185
+        ],
+        "token": "ع",
+        "bytes": 2,
+        "valid_utf8": true,
+        "two_byte_letter": true
+      },
+      {
+        "merge": 48,
+        "id": 304,
+        "pair": [
+          264,
+          271
+        ],
+        "token": "وں",
+        "bytes": 4,
+        "valid_utf8": true,
+        "two_byte_letter": false
+      },
+      {
+        "merge": 49,
+        "id": 305,
+        "pair": [
+          266,
+          262
+        ],
+        "token": "␣کر",
+        "bytes": 5,
+        "valid_utf8": true,
+        "two_byte_letter": false
+      },
+      {
+        "merge": 50,
+        "id": 306,
+        "pair": [
+          257,
+          269
+        ],
+        "token": "ال",
+        "bytes": 4,
+        "valid_utf8": true,
+        "two_byte_letter": false
+      },
+      {
+        "merge": 5000,
+        "id": 5256,
+        "pair": [
+          2703,
+          1829
+        ],
+        "token": "␣دکھایا",
+        "bytes": 13,
+        "valid_utf8": true,
+        "two_byte_letter": false
+      },
+      {
+        "merge": 10000,
+        "id": 10256,
+        "pair": [
+          446,
+          561
+        ],
+        "token": "␣بہاؤ",
+        "bytes": 9,
+        "valid_utf8": true,
+        "two_byte_letter": false
+      },
+      {
+        "merge": 15000,
+        "id": 15256,
+        "pair": [
+          327,
+          1549
+        ],
+        "token": "امجد",
+        "bytes": 8,
+        "valid_utf8": true,
+        "two_byte_letter": false
+      },
+      {
+        "merge": 20000,
+        "id": 20256,
+        "pair": [
+          13989,
+          290
+        ],
+        "token": "␣اِنسان",
+        "bytes": 13,
+        "valid_utf8": true,
+        "two_byte_letter": false
+      },
+      {
+        "merge": 25000,
+        "id": 25256,
+        "pair": [
+          8001,
+          8027
+        ],
+        "token": "پریانکا",
+        "bytes": 14,
+        "valid_utf8": true,
+        "two_byte_letter": false
+      },
+      {
+        "merge": 30000,
+        "id": 30256,
+        "pair": [
+          305,
+          14928
+        ],
+        "token": "␣کرونگی",
+        "bytes": 13,
+        "valid_utf8": true,
+        "two_byte_letter": false
+      },
+      {
+        "merge": 35000,
+        "id": 35256,
+        "pair": [
+          337,
+          432
+        ],
+        "token": "␣شمر",
+        "bytes": 7,
+        "valid_utf8": true,
+        "two_byte_letter": false
+      },
+      {
+        "merge": 40000,
+        "id": 40256,
+        "pair": [
+          353,
+          353
+        ],
+        "token": "لیلی",
+        "bytes": 8,
+        "valid_utf8": true,
+        "two_byte_letter": false
+      },
+      {
+        "merge": 45000,
+        "id": 45256,
+        "pair": [
+          2791,
+          353
+        ],
+        "token": "␣ہوچلی",
+        "bytes": 11,
+        "valid_utf8": true,
+        "two_byte_letter": false
+      }
+    ],
+    "two_byte_letter_merges_first300": [
+      1,
+      2,
+      4,
+      6,
+      7,
+      8,
+      9,
+      11,
+      13,
+      14,
+      15,
+      18
+    ],
+    "num_two_byte_letters_first300": 41,
+    "invalid_utf8_merges_first300": [
+      3,
+      5,
+      12,
+      37,
+      108,
+      182
+    ],
+    "num_invalid_utf8_first300": 6,
+    "invalid_among_first50": 4,
+    "first_whole_word_2plus_chars": {
+      "merge": 30,
+      "token": "␣کی"
+    },
+    "first_whole_word_3plus_chars": {
+      "merge": 40,
+      "token": "␣میں"
+    },
+    "longest": [
+      {
+        "merge": 28377,
+        "token": "۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔",
+        "bytes": 32,
+        "chars": 16,
+        "valid_utf8": true
+      },
+      {
+        "merge": 26028,
+        "token": "␣انسائیکلوپیڈیا",
+        "bytes": 29,
+        "chars": 15,
+        "valid_utf8": true
+      },
+      {
+        "merge": 17859,
+        "token": "␣خیبرپختونخواہ",
+        "bytes": 27,
+        "chars": 14,
+        "valid_utf8": true
+      },
+      {
+        "merge": 36486,
+        "token": "␣پارلیمنٹیرینز",
+        "bytes": 27,
+        "chars": 14,
+        "valid_utf8": true
+      },
+      {
+        "merge": 37316,
+        "token": "␣انگیزانکشافات",
+        "bytes": 27,
+        "chars": 14,
+        "valid_utf8": true
+      },
+      {
+        "merge": 40077,
+        "token": "␣لاہورہائیکورٹ",
+        "bytes": 27,
+        "chars": 14,
+        "valid_utf8": true
+      },
+      {
+        "merge": 42507,
+        "token": "␣غیرجانبدارانہ",
+        "bytes": 27,
+        "chars": 14,
+        "valid_utf8": true
+      },
+      {
+        "merge": 33142,
+        "token": "␣-------------------------",
+        "bytes": 26,
+        "chars": 26,
+        "valid_utf8": true
+      },
+      {
+        "merge": 38069,
+        "token": "خیبرپختونخواہ",
+        "bytes": 26,
+        "chars": 13,
+        "valid_utf8": true
+      },
+      {
+        "merge": 47740,
+        "token": "لاہورہائیکورٹ",
+        "bytes": 26,
+        "chars": 13,
+        "valid_utf8": true
+      },
+      {
+        "merge": 6932,
+        "token": "␣خیبرپختونخوا",
+        "bytes": 25,
+        "chars": 13,
+        "valid_utf8": true
+      },
+      {
+        "merge": 22866,
+        "token": "␣امیرالمومنین",
+        "bytes": 25,
+        "chars": 13,
+        "valid_utf8": true
+      },
+      {
+        "merge": 28803,
+        "token": "␣امیرالمؤمنین",
+        "bytes": 25,
+        "chars": 13,
+        "valid_utf8": true
+      },
+      {
+        "merge": 33502,
+        "token": "␣انفرااسٹرکچر",
+        "bytes": 25,
+        "chars": 13,
+        "valid_utf8": true
+      },
+      {
+        "merge": 33663,
+        "token": "␣موٹرسائیکلوں",
+        "bytes": 25,
+        "chars": 13,
+        "valid_utf8": true
+      },
+      {
+        "merge": 37711,
+        "token": "␣دارالحکومتوں",
+        "bytes": 25,
+        "chars": 13,
+        "valid_utf8": true
+      },
+      {
+        "merge": 38399,
+        "token": "␣ٹرانسپورٹیشن",
+        "bytes": 25,
+        "chars": 13,
+        "valid_utf8": true
+      },
+      {
+        "merge": 40385,
+        "token": "␣گوانتاناموبے",
+        "bytes": 25,
+        "chars": 13,
+        "valid_utf8": true
+      },
+      {
+        "merge": 41722,
+        "token": "␣طالبانائزیشن",
+        "bytes": 25,
+        "chars": 13,
+        "valid_utf8": true
+      },
+      {
+        "merge": 43072,
+        "token": "␣پارلیمنٹیرین",
+        "bytes": 25,
+        "chars": 13,
+        "valid_utf8": true
+      }
+    ]
+  },
+  "q2": {
+    "tokenizers": [
+      "ours (50k Urdu BPE)",
+      "GPT-2 (tiktoken gpt2)",
+      "o200k_base (tiktoken)"
+    ],
+    "rows": [
+      {
+        "input": "test.txt (sample)",
+        "words": 1352562,
+        "tpw": {
+          "ours (50k Urdu BPE)": 1.121,
+          "GPT-2 (tiktoken gpt2)": 5.824,
+          "o200k_base (tiktoken)": 1.531
+        }
+      },
+      {
+        "input": "news",
+        "words": 29,
+        "tpw": {
+          "ours (50k Urdu BPE)": 1.034,
+          "GPT-2 (tiktoken gpt2)": 5.655,
+          "o200k_base (tiktoken)": 1.345
+        },
+        "extra_probe": false
+      },
+      {
+        "input": "poetry",
+        "words": 18,
+        "tpw": {
+          "ours (50k Urdu BPE)": 1.056,
+          "GPT-2 (tiktoken gpt2)": 6.111,
+          "o200k_base (tiktoken)": 1.722
+        },
+        "extra_probe": false
+      },
+      {
+        "input": "urdu_with_english",
+        "words": 18,
+        "tpw": {
+          "ours (50k Urdu BPE)": 1.667,
+          "GPT-2 (tiktoken gpt2)": 4.111,
+          "o200k_base (tiktoken)": 1.278
+        },
+        "extra_probe": false
+      },
+      {
+        "input": "roman_urdu",
+        "words": 19,
+        "tpw": {
+          "ours (50k Urdu BPE)": 2.789,
+          "GPT-2 (tiktoken gpt2)": 2.0,
+          "o200k_base (tiktoken)": 1.421
+        },
+        "extra_probe": false
+      },
+      {
+        "input": "numbers_dates",
+        "words": 17,
+        "tpw": {
+          "ours (50k Urdu BPE)": 1.353,
+          "GPT-2 (tiktoken gpt2)": 4.824,
+          "o200k_base (tiktoken)": 1.765
+        },
+        "extra_probe": false
+      },
+      {
+        "input": "diacritics",
+        "words": 14,
+        "tpw": {
+          "ours (50k Urdu BPE)": 1.643,
+          "GPT-2 (tiktoken gpt2)": 6.357,
+          "o200k_base (tiktoken)": 2.357
+        },
+        "extra_probe": false
+      },
+      {
+        "input": "personal_names",
+        "words": 14,
+        "tpw": {
+          "ours (50k Urdu BPE)": 1.214,
+          "GPT-2 (tiktoken gpt2)": 6.857,
+          "o200k_base (tiktoken)": 2.214
+        },
+        "extra_probe": false
+      },
+      {
+        "input": "unnormalised_variants",
+        "words": 6,
+        "tpw": {
+          "ours (50k Urdu BPE)": 3.5,
+          "GPT-2 (tiktoken gpt2)": 4.333,
+          "o200k_base (tiktoken)": 1.5
+        },
+        "extra_probe": true
+      },
+      {
+        "input": "emoji_and_hashtag",
+        "words": 7,
+        "tpw": {
+          "ours (50k Urdu BPE)": 1.714,
+          "GPT-2 (tiktoken gpt2)": 5.857,
+          "o200k_base (tiktoken)": 1.857
+        },
+        "extra_probe": true
+      },
+      {
+        "input": "long_digit_strings",
+        "words": 3,
+        "tpw": {
+          "ours (50k Urdu BPE)": 8.0,
+          "GPT-2 (tiktoken gpt2)": 7.333,
+          "o200k_base (tiktoken)": 6.667
+        },
+        "extra_probe": true
+      }
+    ]
+  },
+  "q3": {
+    "worst": [
+      {
+        "input": "long_digit_strings",
+        "tpw": 8.0,
+        "baseline_test_tpw": 1.121,
+        "reason": "Digits were normalised to ASCII, but long or rare digit strings were seen only in short common runs, so they split into many 1-3 digit tokens."
+      },
+      {
+        "input": "unnormalised_variants",
+        "tpw": 3.5,
+        "baseline_test_tpw": 1.121,
+        "reason": "Normalisation is deliberately outside the tokenizer. Arabic yeh/kaf/heh and tatweel map to byte sequences never seen in training, so the same words fragment into raw bytes unless normalize() is applied first."
+      },
+      {
+        "input": "roman_urdu",
+        "tpw": 2.789,
+        "baseline_test_tpw": 1.121,
+        "reason": "The corpus is Urdu-script only (the cleaning step drops Latin-script lines), so Roman Urdu has no learned merges and falls back to short English-like byte pieces."
+      }
+    ],
+    "most_fragmented_frequent_words": [
+      {
+        "word": "␣الزکاة",
+        "tokens": 3,
+        "count": 32
+      },
+      {
+        "word": "␣آرسنک",
+        "tokens": 3,
+        "count": 21
+      },
+      {
+        "word": "␣humic",
+        "tokens": 3,
+        "count": 31
+      },
+      {
+        "word": "’’۔",
+        "tokens": 2,
+        "count": 38
+      },
+      {
+        "word": "␣گورداسپور",
+        "tokens": 2,
+        "count": 28
+      },
+      {
+        "word": "␣گنگو",
+        "tokens": 2,
+        "count": 20
+      },
+      {
+        "word": "␣وسایا",
+        "tokens": 2,
+        "count": 40
+      },
+      {
+        "word": "␣مومل",
+        "tokens": 2,
+        "count": 49
+      },
+      {
+        "word": "␣شانتا",
+        "tokens": 2,
+        "count": 31
+      },
+      {
+        "word": "␣دوستووسکی",
+        "tokens": 2,
+        "count": 21
+      }
+    ]
+  },
+  "draft_text": {
+    "q1": "The earliest merges rebuild frequent two-byte Urdu letters (41 of the first 300 merges are single letters), then space+letter pieces and common endings. 6 of the first 300 tokens are not valid UTF-8 on their own (a lead byte, sometimes with the space). The first whole word of 2+ letters is merge 30 (␣کی) and of 3+ letters merge 40 (␣میں).",
+    "q2": "On test.txt we need 1.121 tokens per word versus GPT-2 (tiktoken gpt2): 5.824, o200k_base (tiktoken): 1.531. Inputs where ours is worse: than GPT-2 (tiktoken gpt2): roman_urdu, long_digit_strings; than o200k_base (tiktoken): urdu_with_english, roman_urdu, unnormalised_variants, long_digit_strings. Gains come from merges learned on Urdu; losses appear on text that is rare in the training corpus.",
+    "q3": "long_digit_strings: 8.0 tokens/word vs 1.121 on test.txt. Digits were normalised to ASCII, but long or rare digit strings were seen only in short common runs, so they split into many 1-3 digit tokens. unnormalised_variants: 3.5 tokens/word vs 1.121 on test.txt. Normalisation is deliberately outside the tokenizer. Arabic yeh/kaf/heh and tatweel map to byte sequences never seen in training, so the same words fragment into raw bytes unless normalize() is applied first. roman_urdu: 2.789 tokens/word vs 1.121 on test.txt. The corpus is Urdu-script only (the cleaning step drops Latin-script lines), so Roman Urdu has no learned merges and falls back to short English-like byte pieces."
+  }
+}
